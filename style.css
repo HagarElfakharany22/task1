@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.nav{
+    
+   background-color: black;
+   
+}
+
+.nav-img{
+   width: 30%;
+     float: left;
+    
+}
+.nav-img img{
+    width: 100px;
+    height: 60px;
+    padding-left: 30px;
+}
+.nav-list{
+   width: 40%;
+   float: right;
+   
+}
+.clearfix{
+    clear: both;
+}
+.nav .nav-list ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 35px;
+    font-size: 20px;
+}
+
+.nav .nav-list ul li a{
+    text-decoration: none;
+    
+}
+
+.nav .nav-list ul li .H{
+    color: red;
+}
+.nav .nav-list ul li .A{
+    color: blue;
+}
+.nav .nav-list ul li .C{
+    color: white;
+} 
+.nav .nav-list ul li .F{
+    color: chartreuse;
+}
+.main {
+   background-image:url("the\ nile.jpg");
+   background-size: 100% 100%;
+  height: 100vh;
+  overflow: auto;
+   
+}
+.content{
+   text-align: center;
+   margin-top: 150px;
+   font-size: larger;
+  
+}
+.main .content h1{
+    color: black;
+    font-size: 80px;
+}
+.main .content h2{
+    color: black;
+   padding-bottom:  10px;
+   font-size: 50px;
+   font-weight: 100;
+    
+}
+.main .content button{
+   padding: 15px 25px;
+    color: black;
+    border: 0.5 black solid;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.team{
+    background-color: black;
+  margin:30px;
+}
+.team .team-heading h1{
+    color: chartreuse;
+    text-align: center;
+    margin: 40px;
+}
+.item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+   
+}
+.item img{
+    width: 70px;
+    height: 70px;
+     border:2px solid black;
+     border-radius: 50%;
+    
+}
+.team-content{
+    width: 80%;
+    margin: auto;
+}
+.f-img{
+    outline:red 3px solid;
+}
+.s-img{
+    outline: blue 3px solid;
+}
+.t-img{
+    outline: white 3px solid;
+}
+.fo-img{
+    outline: chartreuse 3px solid;
+}
+h2{
+    color: white;
+    margin: 3px;
+}
+h4{
+    padding-bottom: 9px;
+}
+.first-h{
+    color: red;
+}
+.second-h{
+    color: blue;
+}
+.third-h{
+    color: white;
+}
+.fourth-h{
+color: chartreuse;
+}
+.for-people-heading{
+    text-align: center;
+    margin: 50px 0px;
+    color: tomato;
+}
+.people-item{
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+    margin:15px 0px;
+}
+
+.people-item .mob{
+  border-left: 15px solid chartreuse;
+}
+.people-item .microphone{
+    border-left: 15px solid blue;
+}
+.people-item .plane{
+    border-left: 15px solid orangered;
+}
+.people-item .camera{
+    border-left: 15px solid orangered;
+}
+.people-item .ipad{
+    border-left: 15px solid chartreuse;
+}
+.people-item ipad{
+    border-left: 15px solid chartreuse;
+}
+.people-item .telephone{
+    border-left: 15px solid blue;
+}
+
+
+
+
